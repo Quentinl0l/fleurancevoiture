@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Accueil</title>
+<link rel="stylesheet" href="./css/menu.css" />
+<link rel="stylesheet" href="./css/formulaire.css" />    
+</head>
+<body>
+    <header>
+        <a href="https://www.fleurancenature.fr/" target="_blank"><img src="images/fleurance-nature.png" alt="logo"></a>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Accueil</a></li> 
+            <li><a href="./train.html">Train</a></li>
+            <li id="covoiturages"><a href="./covoiturage.html">Covoiturage</a></li>
+            <li><a href="./velo.html">Vélo</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <section id="search">
+        <input type="text" placeholder="Recherche...">
+        <a href="./search.html"><button>Recherche</button></a>
+    </section>
+
+<div class="Elements">
+<title>Contact et réservation</title>     
+    <section>  
+            <div id="reservation">
+                <fieldset>
+                    <legend>Formulaire de réservation</legend>
+                       
+                        <p>
+                            <label for="jour_départ">Jour de départ :</label>
+                            <select name="jour" id="jour">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                            <select name="mois" id="mois">
+                                <option value="Janvier">Janvier</option>
+                                <option value="Février">Février</option>
+                                <option value="Mars">Mars</option>
+                                <option value="Avril">Avril</option>
+                                <option value="Mai">Mai</option>
+                                <option value="Juin">Juin</option>
+                                <option value="Juillet">Juillet</option>
+                                <option value="Aout">Aout</option>
+                                <option value="Septembre">Septembre</option>
+                                <option value="Octobre">Octobre</option>
+                                <option value="Novembre">Novembre</option>
+                                <option value="Décembre">Décembre</option>
+                            </select>
+                            <select name="annee" id="annee">
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                            </select>
+                        </p> 
+                        <p>
+                            <label for="heure_départ">Heure de départ :</label>
+                            <select name="heure" id="heure">
+                                <option value="00">00</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                            </select>
+                            <select name="minute" id="minute">
+                                <option value="00">00</option>
+                                <option value="05">05</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                                <option value="30">30</option>
+                                <option value="35">35</option>
+                                <option value="40">40</option>
+                                <option value="45">45</option>
+                                <option value="50">50</option>
+                                <option value="55">55</option>
+                            </select>
+                </fieldset>  
+            </div>
+            <div id="coordonnees">
+                <fieldset>
+                    <legend>Vos coordonnées</legend>
+                        <p>
+                            <input type="text" name="Nom" id="Nom"  placeholder="Votre nom*" size="30" required />   <input type="text" name="Prenom" id="Prenom" placeholder="Votre prénom*" size="30" required />
+                        </p>
+                        <p>
+                            <input type="text" name="Code_postal" id="Code_postal" placeholder="Code postale*" size="15" required />  <input type="text" name="Ville" id="Ville" placeholder="Ville*" size="25" required />
+                        </p>
+                        <p>
+                            <input type="E_mail" name="E_mail" id="E_mail"  placeholder="E-mail*" size="40" required />  <input type="tel" name="Telephone" id="Telephone" placeholder="00 00 00 00 00" size="20" required />
+                        </p>
+                        <p>
+                            <input type="nb_places" name="nb_places" id="nb_places"  placeholder="Nombre de places*" size="40" required /> 
+                        </p>
+                </fieldset>
+            </div>
+            </div>
+            <div id="confirmation">
+            <a href="confirmation billet.html"><button>Confirmer la réservation</button></a>
+            </div>
+        </div>
+        </form>      
+    </section>
+    <section class="bas">
+        <section id="newsletter">
+            <h3>Abonnez-vous à la newsletter</h3>
+            <input type="text" placeholder="Votre adresse email">
+            <button>Je m'inscris</button>
+            <section id="social">
+            <a href="https://www.facebook.com/FleuranceNature"><img src="images/facebook.PNG" alt="facebook"></a>
+            <a href="https://www.instagram.com/fleurancenature/"><img src="images/insta.PNG" alt="instagram"></a>
+            <p>Suivez nous sur les réseaux sociaux</p>
+            </section>
+        </section>
+        <section id="contact">
+            <h3>Contactez-nous</h3>
+            <h4>Par téléphone</h4>
+            <section id="telephone">
+                <p>05 62 06 14 48</p>
+            </section>
+            <p>Du lundi au vendredi, de 8h à 18h<br>(Numéro non surtaxé)</p>
+            <a href="https://www.fleurancenature.fr/contact"><button>Ecrivez nous par mail</button></a>
+            <h3>Catalogue</h3>
+            <a href="https://fr.zone-secure.net/62132/1906648/#page=1"><button>Je le consulte</button></a>
+            <a href="https://www.fleurancenature.fr/recevoir-catalogue"><button>Je le reçois gratuitement</button></a>
+            <a href="https://www.fleurancenature.fr/code-avantage"><p>Vous avez reçu un code par courrier ?</p></a>
+        </section>
+    </section>
+    </main>
+
+    <footer>
+        <a href="#"><button>Retour en haut<img src="images/fleche-haut.svg" alt="retour vers le haut"></button></a>
+    </footer>
+</body>
+</html>

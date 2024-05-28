@@ -1,0 +1,48 @@
+#search{
+    text-align: center;
+}
+
+#recherche1 img{
+    width: 20%;
+}
+
+#recherche1{
+    display: flex;
+    background-color: #faf8f2;
+}
+
+
+#recherche2 img{
+    width: 10%;
+}
+
+#recherche2{
+    display: flex;
+    background-color: #faf8f2;
+}
+
+#recherches h2{
+    color: #644D45;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+}
+
+#recherches h3{
+    color: #644D45;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+}
+
+#recherches p{
+    color: #52804D;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+#recherches a{
+    text-decoration: none;
+}
+
+#recherches a>h3:hover{
+    color: #dfddd6;
+}

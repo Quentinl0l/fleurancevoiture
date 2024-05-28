@@ -1,0 +1,155 @@
+@font-face {
+	font-family: "Caveat";
+	src: url("../fonts/Caveat.ttf");
+}
+
+@font-face {
+	font-family:"DM Sans" ;
+	src: url("../fonts/DM Sans.ttf");
+}
+header {
+	background-color: #faf8f2;
+}
+
+header img{
+	height: 100px;
+}
+
+#search{
+	text-align:right;
+}
+
+footer{
+	text-align: right;
+}
+body button{
+	display:inline-flex;
+	cursor:pointer;
+	align-items: center;
+	border-radius: 2em;
+	height: 2em;
+	padding:20px;
+	border-style: none;
+	background-color: #f6f2ec;
+	font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    color: #644D45;
+}
+
+body button:hover{
+	background-color: #dfddd6;
+}
+nav ul{
+	background-color: #faf8f2;
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.20);
+}
+nav {
+	background-color: #faf8f2;
+	background-blend-mode: darken;
+	display:inline;
+	text-align:center;
+	top:70px;
+  	width:auto;
+  	font-weight:bold;
+}
+nav a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: larger;
+	font-family:"DM Sans",sans-serif;
+	color: #686767;
+	align-items: center;
+}
+nav ul>li:hover{
+	font-weight: bolder;
+}
+nav>ul>li{
+	display:inline-flex;
+	justify-content: center;
+    text-align:center;
+	align-items: center;
+	background-color: #faf8f2;	
+	height:50px;
+	width:20vw;
+	border: solid 1px #eceae8;
+	
+}
+nav ul>li:hover{
+	background-color: #ebe2c683;
+}
+
+nav>ul>li:hover>ul{
+	display:block;
+	background-color:#C1C1C1;
+}
+nav>ul>li>ul>li>a:hover{
+	color:white;
+	font-style:italic;
+}
+body input{
+	border-radius: 2em;
+	height:3em;
+	text-align: center;
+	border-style: none;
+	background-color: #f1f8eb;
+}
+#newsletter	 {
+	font-family:Caveat,cursive;
+	margin:2em;
+}
+#newsletter h3{
+	font-size:xx-large;
+	color:#52804d;
+}
+#newsletter button{
+	font-weight:200;
+	font-size:.8125em;
+	line-height: 1.25rem;
+	font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    color: #644D45;
+}
+#newsletter input{
+	width:20vw;
+}
+#contact{
+	margin:2em;
+	background-color: #faf8f2;
+}
+#contact h3{
+	font-family:Caveat,cursive;
+	font-size:xx-large;
+	color:#52804d;
+}
+#telephone{
+	font-weight: bolder;
+	color:#52804c;
+	font-size: x-large;
+	font-family: DM-Sans,sans-serif;
+}
+.bas{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
+#social{
+	margin-top: 20px;
+	margin-left:20px;
+	display: flex;
+	color:#52804D;
+	font-weight:bolder;
+	font-size: .9000rem;
+	line-height: 1.75;
+	font-family: "DM Sans",sans-serif;
+}
+footer button{
+	border-style:none;
+	font-weight: bold;
+	cursor:pointer;
+	background-color: #ffd200;
+	padding: .5rem 1rem;
+	border-radius: 0;
+	margin-left: 20px;
+}
+footer button img{
+	height: 15px;
+}

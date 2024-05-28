@@ -1,0 +1,33 @@
+#hautdepage h1{
+    display: flex;
+    font-family: "DM Sans",sans-serif;
+    justify-content: center;
+    color: #644D45;
+    font-size: 40px;
+}
+#hautdepage img{
+    display: flex;
+    justify-content: center;
+     width: 100%;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
+#intro p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: green;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+#train{
+    background-color: #9f9e9b;
+}
+
+#train a{
+    color: white;
+}

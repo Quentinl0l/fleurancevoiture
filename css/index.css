@@ -1,0 +1,36 @@
+#index img{
+    width: 80%;
+}
+
+#index{
+    display: grid;
+    grid: repeat(2, 150px) / auto-flow 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#index img{
+    margin: 20px;
+}
+#index button{
+    margin: 60px;
+}
+
+#index2 h1{
+    display: flex;
+    justify-content: center;
+    color: #644D45;
+    font-size: 40px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#index2 p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: green;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
